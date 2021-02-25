@@ -11,6 +11,7 @@
   <project path="private/msm-google" name="kernel_google_msm-4.9" remote="nysa">
     <linkfile src="build.config.bluecross_no-cfi" dest="build.config" />
   </project>
+  <project path="private/stock" name="stock-bootimg" revision="master" remote="nysa" clone-depth="1" />
   <project path="private/msm-google/techpack/audio" name="kernel/msm-extra" />
   <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="kernel/msm-modules/qca-wfi-host-cmn" />
   <project path="private/msm-google-modules/wlan/qcacld-3.0" name="kernel/msm-modules/qcacld" />
